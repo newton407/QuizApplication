@@ -21,6 +21,13 @@
 		46E00E841982B63C00381427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E00E661982B63C00381427 /* UIKit.framework */; };
 		46E00E8C1982B63C00381427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E8A1982B63C00381427 /* InfoPlist.strings */; };
 		46E00E8E1982B63C00381427 /* babatunde_ios_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E00E8D1982B63C00381427 /* babatunde_ios_projectTests.m */; };
+		46E00E9C1982B8B900381427 /* firstpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E971982B8B900381427 /* firstpage.png */; };
+		46E00E9D1982B8B900381427 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E981982B8B900381427 /* gameover.png */; };
+		46E00E9E1982B8B900381427 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E991982B8B900381427 /* right.png */; };
+		46E00E9F1982B8B900381427 /* selectcat.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E9A1982B8B900381427 /* selectcat.png */; };
+		46E00EA01982B8B900381427 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E00E9B1982B8B900381427 /* wrong.png */; };
+		46E00EA31982BB0100381427 /* CategViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E00EA21982BB0100381427 /* CategViewController.m */; };
+		46E00EA61982C33200381427 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E00EA51982C33200381427 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		46E00E891982B63C00381427 /* babatunde ios projectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "babatunde ios projectTests-Info.plist"; sourceTree = "<group>"; };
 		46E00E8B1982B63C00381427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46E00E8D1982B63C00381427 /* babatunde_ios_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = babatunde_ios_projectTests.m; sourceTree = "<group>"; };
+		46E00E971982B8B900381427 /* firstpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstpage.png; sourceTree = "<group>"; };
+		46E00E981982B8B900381427 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		46E00E991982B8B900381427 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		46E00E9A1982B8B900381427 /* selectcat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectcat.png; sourceTree = "<group>"; };
+		46E00E9B1982B8B900381427 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		46E00EA11982BB0100381427 /* CategViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategViewController.h; path = ../CategViewController.h; sourceTree = "<group>"; };
+		46E00EA21982BB0100381427 /* CategViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategViewController.m; path = ../CategViewController.m; sourceTree = "<group>"; };
+		46E00EA41982C33200381427 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		46E00EA51982C33200381427 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				46E00E741982B63C00381427 /* Main.storyboard */,
 				46E00E771982B63C00381427 /* ViewController.h */,
 				46E00E781982B63C00381427 /* ViewController.m */,
+				46E00EA11982BB0100381427 /* CategViewController.h */,
+				46E00EA21982BB0100381427 /* CategViewController.m */,
+				46E00EA41982C33200381427 /* Game.h */,
+				46E00EA51982C33200381427 /* Game.m */,
 				46E00E7A1982B63C00381427 /* Images.xcassets */,
 				46E00E691982B63C00381427 /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		46E00E691982B63C00381427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46E00E971982B8B900381427 /* firstpage.png */,
+				46E00E981982B8B900381427 /* gameover.png */,
+				46E00E991982B8B900381427 /* right.png */,
+				46E00E9A1982B8B900381427 /* selectcat.png */,
+				46E00E9B1982B8B900381427 /* wrong.png */,
 				46E00E6A1982B63C00381427 /* babatunde ios project-Info.plist */,
 				46E00E6B1982B63C00381427 /* InfoPlist.strings */,
 				46E00E6E1982B63C00381427 /* main.m */,
@@ -228,7 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E00E9E1982B8B900381427 /* right.png in Resources */,
+				46E00EA01982B8B900381427 /* wrong.png in Resources */,
 				46E00E7B1982B63C00381427 /* Images.xcassets in Resources */,
+				46E00E9F1982B8B900381427 /* selectcat.png in Resources */,
+				46E00E9D1982B8B900381427 /* gameover.png in Resources */,
+				46E00E9C1982B8B900381427 /* firstpage.png in Resources */,
 				46E00E6D1982B63C00381427 /* InfoPlist.strings in Resources */,
 				46E00E761982B63C00381427 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E00EA61982C33200381427 /* Game.m in Sources */,
 				46E00E791982B63C00381427 /* ViewController.m in Sources */,
 				46E00E731982B63C00381427 /* AppDelegate.m in Sources */,
 				46E00E6F1982B63C00381427 /* main.m in Sources */,
+				46E00EA31982BB0100381427 /* CategViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
